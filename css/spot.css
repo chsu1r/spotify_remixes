@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    font-family: Circular,Helvetica,Arial,sans-serif;
+}
+#title_head{
+    font-size:36px;
+    width:100%;
+    border-bottom:1px solid black;
+    background-color: #141414;
+    color:white;
+    text-align:center;
+    padding:5px;
+    margin:0;
+}
+#container{
+    margin-top:0;
+    width:80%;
+    text-align: center;
+    margin-left:10%;
+}
+#text{
+    background: linear-gradient(90deg,#2ebd59,#00794a);
+    padding:5px;
+    width:100%;text-align: center;
+}
+.song_container{
+    display:inline-block;
+    margin:10px;
+    padding:20px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size:16px;
+    font-style:bold;
+}
+.song_container .song_title{
+    font-size:16px;
+    padding:3px;
+    color:black;
+    text-decoration: bold;
+}
+.song_container .audio{
+    display: block;
+}
+.song_container img {
+    image-orientation: 90deg;
+}
